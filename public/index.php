@@ -1,18 +1,5 @@
 <?php
 
-/*
-Project         :   MWZ - Milky Way At Z.com
-@package        :   Laravel
-Laravel Version :   8.33.1
-PHP Version     :   7.4
-Create Date     :   01/July/2021
-Copyright       :   Netdesign Host Co.Ltd.
-Author          :   Aekbhisit 
-Author URL      :   https://z.com/th
-Support         :   contact@nd.com
-License         :   Netdesign Host Co.Ltd. 2020
-*/
-
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 
@@ -29,8 +16,8 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-if (file_exists(__DIR__.'/../storage/framework/maintenance.php')) {
-    require __DIR__.'/../storage/framework/maintenance.php';
+if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php')) {
+    require $maintenance;
 }
 
 /*
@@ -61,8 +48,8 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 
 $kernel = $app->make(Kernel::class);
 
-$response = tap($kernel->handle(
+$response = $kernel->handle(
     $request = Request::capture()
-))->send();
+)->send();
 
 $kernel->terminate($request, $response);
