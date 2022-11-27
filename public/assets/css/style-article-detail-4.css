@@ -1,0 +1,109 @@
+.liner-bottom{ 
+	position: relative;
+	padding-bottom: 15px;
+	margin-bottom: 40px !Important;
+}
+.liner-bottom:before{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 2px;
+	background: #333;
+	left: -20%;
+	bottom: 0;
+}
+.liner-bottom.lnLeft:before{
+	right: initial;
+	left: -20%;
+}
+.liner-bottom.lnRight:before{
+	left: initial;
+	right: -20%;
+}
+.liner-bottom.lnCenter:before{
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 30%;
+}
+.liner-side{ 
+	position: relative; 
+	display: inline-block;
+	padding-left: 40px;
+}
+.liner-side span{ 
+	position: relative;
+	display: inline-block; 
+	background: #fff;
+	color: #888;
+	padding: 0 8px;
+	font-size: 1em;
+	z-index: 2;
+}
+.liner-side span:before{
+	position: absolute;
+	content: "";
+	height: 2px;
+	right: 100%;
+	z-index: 1;
+}
+.liner-side span:after{
+	position: absolute;
+	content: "";
+	height: 2px;
+	left: 100%;
+	z-index: 1;
+}
+.liner-side span:before, 
+.liner-side span:after{
+	top: 12px;
+	width: 40px;
+	background: #cdcdcd;
+}
+.liner-side.liner-side-left span{padding-right: 0;}
+.liner-side.liner-side-right span{ padding-left: 0; }
+.liner-side.liner-side-left span:after{ display: none; }
+.liner-side.liner-side-right span:before{ display: none; }
+
+.f-left{ float: left; }
+.f-right{ float: right; }
+.blockquote{ position: relative; border-color: #000;}
+.share-social{ float: left;  }
+
+.column-2{
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	-moz-column-gap:2em; /* Firefox */
+	-webkit-column-gap:2em; /* Safari and Chrome */
+	column-gap:2em;
+}
+.column-3{
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+	-moz-column-gap:3em; /* Firefox */
+	-webkit-column-gap:3em; /* Safari and Chrome */
+	column-gap:3em;
+}
+.date-item{ font-weight: 600; color: #000;  display: inline-block; padding-left: 10px;} 
+.article-detail-style-4 .boxProfile{ text-align: center; position: relative;}
+.article-detail-style-4 .boxProfile .grid-image{ 
+	width: 300px; 
+	margin: 20px auto; 
+	top: -60px;
+	position: relative;
+	margin-bottom: -40px;
+}
+.article-detail-style-4 .boxProfile .inner{
+	border: 1px solid #f2f2f2;
+	box-shadow: 0 10px 20px rgba(221, 221, 221, 0.37);
+	padding: 0 80px 30px 80px;
+	border-radius: 4px;
+}
+.article-detail-style-4 .boxDetail{ padding: 80px; }
+.article-detail-style-4 .boxDetail img{ margin: 40px 0; }
+.article-detail-style-4 .boxDate{ margin-top: 80px; }
+
+
+

@@ -1,0 +1,54 @@
+/*Color variables*/
+/*Gradient variables*/
+/*white variables*/
+/*black variables*/
+/*shadow variables*/
+@media (min-width: 1025px) {
+  .boxed .page {
+    max-width: 1470px;
+    margin: 0 auto;
+    background: #001027;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 0px 0px, rgba(0, 0, 0, 0.3) 0px 5px 25px 0px;
+  }
+  .boxed body {
+    background-image: url(../images/patterns/bgpattern1.png) !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  .boxed .horizontalMenu > .horizontalMenu-list > li > a {
+    padding: 1.2rem 1.8rem 1.2rem;
+  }
+  .boxed .horizontalMenu > .horizontalMenu-list > li > a .fa {
+    margin-right: 0px !important;
+  }
+  .boxed .app-header.header {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .boxed .news-ticker {
+    max-width: 1400px;
+  }
+  .boxed .vh {
+    height: 100vh;
+  }
+  .boxed .horizontal-main {
+    max-width: 1400px;
+  }
+  .boxed .app-sidebar {
+    left: auto !important;
+  }
+  .boxed .second-sidemenu {
+    left: auto !important;
+    margin-left: 55px;
+  }
+  .boxed .header-nav.horizontal-nav .mega-dropdown-menu {
+    transform: translate3d(0px, 51px, 0px) !important;
+    position: absolute;
+  }
+}

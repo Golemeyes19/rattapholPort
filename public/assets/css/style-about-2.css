@@ -1,0 +1,94 @@
+.text-color{ color: #2453d2; }
+.bg-color{ background: #2453d2; }
+
+.liner-bottom{ 
+	position: relative;
+	padding-bottom: 15px;
+	margin-bottom: 40px !Important;
+}
+.liner-bottom:before{
+	position: absolute;
+	content: "";
+	width: 60px
+	height: 3px;
+	background: #333;
+	left: 0;
+	bottom: 0;
+}
+.liner-bottom.lnLeft:before{
+	right: initial;
+	left: 0;
+}
+.liner-bottom.lnRight:before{
+	left: initial;
+	right: 0;
+}
+.liner-bottom.lnCenter:before{
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 60px;
+}
+
+
+.about-style-2 .stitle{
+	font-weight: 600;
+	margin: 0;
+	line-height: 1;
+}
+.about-style-2 .headtitle{ font-size: 3.25em; font-weight: 600; line-height: 1.2;}
+.about-style-2 .blog-intro.cLeft{ padding: 0px 60px 0 0;}
+.about-style-2 .blog-icons{ padding: 100px 0 120px 0;}
+.about-style-2 .blog-icons ul{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.about-style-2 .blog-icons .box-icon-list{
+	display: inline-block;
+	padding: 40px 20px;
+	box-shadow: 0 14px 10px rgba(221, 221, 221, 0.42);
+	border-radius: 6px;
+	width: 23%;
+	margin: 1%;
+	float: left;
+	border: 1px solid #e8e8e8;
+	background: #fff;
+}
+.about-style-2 .blog-icons .box-icon-list img{ width: 48px; }
+.about-style-2 .blog-icons .box-icon-list .htitle{ margin: 30px 0 10px 0;}
+.about-style-2 .blog-icons .box-icon-list .desp{ 
+	color: #636363;
+	margin: 0;
+	font-size: 0.9em;
+}
+.about-style-2 .blog-icons .cRight{ padding: 120px 0 0 120px; text-align: left;}
+.about-style-2 .blog-quote{ text-align: center; padding: 80px 0;}
+.about-style-2 .blog-quote .blockquote{
+	position: relative;
+	width: auto;
+	display: -webkit-inline-box;
+	padding: 0 40px;
+	text-align: center;
+}
+.about-style-2 .blog-quote .blockquote p{ margin: auto; }
+.blockquote-fancy::before{ font-size: 6em; left: -10px;}
+.about-style-2 .blog-quote{ position: relative; }
+.about-style-2 .blog-quote .blog-quote-icon{
+	position: absolute;
+	top: -17%;
+	right: 16%;
+	width: 120px;
+}
+.about-style-2 .blog-icons .box-icon-list:hover .htitle,
+.about-style-2 .blog-icons .box-icon-list:hover .desp{
+	color: #fff;
+}
+.about-style-2 .blog-icons .box-icon-list:hover img{ filter: brightness(1.0) invert(1); }
+.about-style-2 .blog-icons .box-icon-list:hover{ background: #343657;}
+
+
+.about-style-2 .blog-info.cLeft{}
+.about-style-2 .blog-info.cRight{ padding: 60px 0 0 60px; }
+
+

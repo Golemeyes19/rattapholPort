@@ -1,0 +1,178 @@
+.text-color{ color: #2453d2; }
+.bg-color{ background: #2453d2; }
+
+.liner-bottom{ 
+	position: relative;
+	padding-bottom: 15px;
+	margin-bottom: 40px !Important;
+}
+.liner-bottom:before{
+	position: absolute;
+	content: "";
+	width: 60px
+	height: 3px;
+	background: #333;
+	left: 0;
+	bottom: 0;
+}
+.liner-bottom.lnLeft:before{
+	right: initial;
+	left: 0;
+}
+.liner-bottom.lnRight:before{
+	left: initial;
+	right: 0;
+}
+.liner-bottom.lnCenter:before{
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 60px;
+}
+.liner-side{ 
+	position: relative; 
+	display: inline-block;
+}
+.liner-side span{ 
+	position: relative;
+	display: inline-block; 
+	background: #fff;
+	padding: 0 8px;
+	font-size: 2em;
+	z-index: 2;
+}
+.liner-side span:before{
+	position: absolute;
+	content: "";
+	height: 2px;
+	right: 100%;
+	z-index: 1;
+}
+.liner-side span:after{
+	position: absolute;
+	content: "";
+	height: 2px;
+	left: 100%;
+	z-index: 1;
+}
+.liner-side span:before, 
+.liner-side span:after{
+	top: 12px;
+	width: 40px;
+	background: #cdcdcd;
+}
+.liner-side.liner-side-left span{padding-right: 0;}
+.liner-side.liner-side-right span{ padding-left: 0; }
+.liner-side.liner-side-left span:after{ display: none; }
+.liner-side.liner-side-right span:before{ display: none; }
+
+
+.about-style-3 .stitle{
+	font-weight: 600;
+	margin: 0;
+	line-height: 1;
+}
+.about-style-3 .headtitle{ font-size: 3.25em; font-weight: 600; line-height: 1.2;}
+.about-style-3 .sub-title{
+	font-size: 1.6em;
+	line-height: 1.4;
+	margin: 20px 0;
+}
+.about-style-3 .blog-intro.cLeft{ padding: 0px 60px 0 0;}
+
+
+.about-style-3 .blog-detail-text{
+	text-align: left;
+	padding: 120px 0 0 0;
+}
+.about-style-3 .blog-detail-text .box-sm-text{
+	width: 80%;
+	margin: 0;
+	float: right;
+}
+
+.about-style-3 .blog-info{ padding: 40px 0; }
+.about-style-3 .blog-info.cLeft .inner{ position: relative; }
+.about-style-3 .blog-info.cLeft .inner img{width: calc(100% - 80px);}
+.about-style-3 .blog-info.cLeft .inner img,
+.about-style-3 .blog-info.cLeft .social-icons{
+	display: inline-block;
+	float: left;
+}
+.about-style-3 .blog-info.cLeft .social-icons li{
+	float: none;
+	margin: 20px 0;
+	display: -webkit-flex;
+}
+.about-style-3 .blog-info.cLeft .social-icons{
+	display: inline-block;
+	background: #ddd;
+	padding: 20px;
+	min-width: 80px;
+}
+
+.about-style-3 .blog-info.cRight{
+	text-align: left;
+	padding: 40px 0 0 60px;
+}
+.about-style-3 .blog-info .milestone{ margin-top: 40px; }
+.about-style-3 .blog-info .milestone .lead{ font-size: 1em;}
+.milestone-item span{ line-height: 1; font-size: 2.2em;}
+.about-style-3 .blog-info strong{ color: #000; }
+
+
+/*.about-style-3 .blog-icons{ padding: 100px 0 120px 0;}
+.about-style-3 .blog-icons ul{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.about-style-3 .blog-icons .box-icon-list{
+	display: inline-block;
+	padding: 40px 20px;
+	box-shadow: 0 14px 10px rgba(221, 221, 221, 0.42);
+	border-radius: 6px;
+	width: 23%;
+	margin: 1%;
+	float: left;
+	border: 1px solid #e8e8e8;
+	background: #fff;
+}
+.about-style-3 .blog-icons .box-icon-list img{ width: 48px; }
+.about-style-3 .blog-icons .box-icon-list .htitle{ margin: 30px 0 10px 0;}
+.about-style-3 .blog-icons .box-icon-list .desp{ 
+	color: #636363;
+	margin: 0;
+	font-size: 0.9em;
+}
+.about-style-3 .blog-icons .cRight{ padding: 120px 0 0 120px; text-align: left;}
+.about-style-3 .blog-quote{ text-align: center; padding: 80px 0;}
+.about-style-3 .blog-quote .blockquote{
+	position: relative;
+	width: auto;
+	display: -webkit-inline-box;
+	padding: 0 40px;
+	text-align: center;
+}
+.about-style-3 .blog-quote .blockquote p{ margin: auto; }
+.blockquote-fancy::before{ font-size: 6em; left: -10px;}
+.about-style-3 .blog-quote{ position: relative; }
+.about-style-3 .blog-quote .blog-quote-icon{
+	position: absolute;
+	top: -17%;
+	right: 16%;
+	width: 120px;
+}
+.about-style-3 .blog-icons .box-icon-list:hover .htitle,
+.about-style-3 .blog-icons .box-icon-list:hover .desp{
+	color: #fff;
+}
+.about-style-3 .blog-icons .box-icon-list:hover img{ filter: brightness(1.0) invert(1); }
+.about-style-3 .blog-icons .box-icon-list:hover{ background: #343657;}
+
+
+.about-style-3 .blog-info.cLeft{}
+.about-style-3 .blog-info.cRight{ padding: 60px 0 0 60px; }
+
+
+*/

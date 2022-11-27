@@ -1,0 +1,80 @@
+.about-style-1 .headtitle{ font-size: 3.25em; font-weight: 600;}
+.about-style-1 .blog-intro.cLeft{ padding: 60px 60px 0 0;}
+.about-style-1 .blog-icons{
+	padding: 100px 0;
+	text-align: center;
+}
+.about-style-1 .blog-icons ul{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.about-style-1 .blog-icons .box-icon-list{
+	display: inline-block;
+	padding: 40px 20px;
+	box-shadow: 0 14px 10px rgba(221, 221, 221, 0.42);
+	border-radius: 6px;
+	width: 47%;
+	margin: 1%;
+}
+.about-style-1 .blog-icons .box-icon-list img{ width: 48px; }
+.about-style-1 .blog-icons .box-icon-list .htitle{ margin: 30px 0 10px 0;}
+.about-style-1 .blog-icons .box-icon-list .desp{ 
+	color: #636363;
+	margin: 0;
+	font-size: 0.9em;
+}
+.liner-bottom{ 
+	position: relative;
+	padding-bottom: 15px;
+	margin-bottom: 40px !Important;
+}
+.liner-bottom:before{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 2px;
+	background: #333;
+	left: -20%;
+	bottom: 0;
+}
+.liner-bottom.lnLeft:before{
+	right: initial;
+	left: -20%;
+}
+.liner-bottom.lnRight:before{
+	left: initial;
+	right: -20%;
+}
+.liner-bottom.lnCenter:before{
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 30%;
+}
+
+.about-style-1 .blog-icons .cRight{ padding: 120px 0 0 120px; text-align: left;}
+.about-style-1 .blog-quote{ text-align: center; padding: 80px 0;}
+.about-style-1 .blog-quote .blockquote{
+	position: relative;
+	width: auto;
+	display: -webkit-inline-box;
+	padding: 0 40px;
+	text-align: center;
+}
+.about-style-1 .blog-quote .blockquote p{ margin: auto; }
+.blockquote-fancy::before{ font-size: 6em; left: -10px;}
+.about-style-1 .blog-quote{ position: relative; }
+.about-style-1 .blog-quote .blog-quote-icon{
+	position: absolute;
+	top: -17%;
+	right: 16%;
+	width: 120px;
+}
+.about-style-1 .blog-icons .box-icon-list:hover .htitle,
+.about-style-1 .blog-icons .box-icon-list:hover .desp{
+	color: #fff;
+}
+.about-style-1 .blog-icons .box-icon-list:hover img{ filter: brightness(1.0) invert(1); }
+.about-style-1 .blog-icons .box-icon-list:hover{ background: #343657;}
+

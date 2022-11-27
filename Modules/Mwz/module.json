@@ -1,0 +1,13 @@
+{
+    "name": "Mwz",
+    "alias": "mwz",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Mwz\\Providers\\MwzServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

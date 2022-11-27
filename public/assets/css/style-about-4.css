@@ -1,0 +1,102 @@
+.about-style-4 .blog-detail-text{ 
+	text-align: center; 
+	margin-bottom: 80px;
+}
+.about-style-4 p{ text-align: left; }
+
+.about-style-4 .headtitle{ font-size: 3.25em; font-weight: 600;}
+
+.about-style-4 .blog-intro.boxText{ padding: 60px 60px 0 0;}
+.about-style-4 .blog-intro.boxText.cRight{ padding: 60px 0 0 60px; }
+.about-style-4 .blog-intro.boxImage{ padding: 0; }
+.about-style-4 .intro-wrap{ margin-bottom: 120px; }
+
+.liner-bottom{ 
+	position: relative;
+	padding-bottom: 15px;
+	margin-bottom: 40px !Important;
+}
+.liner-bottom:before{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 2px;
+	background: #333;
+	left: -20%;
+	bottom: 0;
+}
+.liner-bottom.lnLeft:before{
+	right: initial;
+	left: -20%;
+}
+.liner-bottom.lnRight:before{
+	left: initial;
+	right: -20%;
+}
+.liner-bottom.lnCenter:before{
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 30%;
+}
+.liner-side{ 
+	position: relative; 
+	display: inline-block;
+}
+.liner-side span{ 
+	position: relative;
+	display: inline-block; 
+	background: #fff;
+	padding: 0 8px;
+	font-size: 2em;
+	z-index: 2;
+}
+.liner-side span:before{
+	position: absolute;
+	content: "";
+	height: 2px;
+	right: 100%;
+	z-index: 1;
+}
+.liner-side span:after{
+	position: absolute;
+	content: "";
+	height: 2px;
+	left: 100%;
+	z-index: 1;
+}
+.liner-side span:before, 
+.liner-side span:after{
+	top: 12px;
+	width: 40px;
+	background: #cdcdcd;
+}
+.liner-side.liner-side-left span{padding-right: 0;}
+.liner-side.liner-side-right span{ padding-left: 0; }
+.liner-side.liner-side-left span:after{ display: none; }
+.liner-side.liner-side-right span:before{ display: none; }
+
+.about-style-4 .blog-quote{
+	text-align: center;
+	padding: 0 0 80px 0;
+	position: relative;
+}
+.about-style-4 .blog-quote .blockquote{
+	position: relative;
+	width: auto;
+	padding: 0 40px;
+}
+.about-style-4 .blog-quote .blockquote p{ margin: auto; }
+.blockquote-fancy::before{ font-size: 6em; left: -10px;}
+.about-style-4 .blog-quote .blog-quote-icon{
+	position: absolute;
+	top: -17%;
+	right: 16%;
+	width: 120px;
+}
+
+.blockquote{ position: relative; }
+.about-style-4 .blog-whyus{ padding-top: 120px; }
+
+
+

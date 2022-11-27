@@ -1,0 +1,13 @@
+{
+    "name": "Pdpa",
+    "alias": "pdpa",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Pdpa\\Providers\\PdpaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
