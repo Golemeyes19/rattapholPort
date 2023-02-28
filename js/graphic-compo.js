@@ -14,17 +14,6 @@ class Adsbanner extends HTMLElement {
             <ul>
 
                 <li>
-                    <a href="images/ads/g-4.png">
-                        <div class="inner">
-                        <img class="w-100" src="images/ads/g-4.png">
-                        <div class="detail">
-                            <h5>ADS BANNER " LINE OA SERIVCE "</h5>
-                        </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
                     <a href="images/ads/g-17.png">
                         <div class="inner">
                         <img class="w-100" src="images/ads/g-17.png">
@@ -45,6 +34,126 @@ class Adsbanner extends HTMLElement {
                         </div>
                     </a>
                 </li>
+
+
+                <li>
+                    <a href="images/ads/g-21.png">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-21.png">
+                        <div class="detail">
+                            <h5>BANNER " SCI GAM "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="images/ads/g-22.png">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-22.png">
+                        <div class="detail">
+                            <h5>ADS BANNER " RiCH MENU BANNER "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="images/ads/g-28.png">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-28.png">
+                        <div class="detail">
+                            <h5>POSTER " RSU MUSIC CLUB "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+               
+
+                <li>
+                    <a href="images/ads/g-24.png">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-24.png">
+                        <div class="detail">
+                            <h5>ADS BANNER " PINK SALON "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="images/ads/g-25.png">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-25.png">
+                        <div class="detail">
+                            <h5>ADS BANNER " PROMOTION "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="images/ads/g-26.png">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-26.png">
+                        <div class="detail">
+                            <h5>ADS BANNER " PROMOTION "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="images/ads/g-29.png">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-29.png">
+                        <div class="detail">
+                            <h5>LOGO " วัดบางแคน้อย "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+               
+
+                <li>
+                    <a href="images/ads/g-23.png">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-23.png">
+                        <div class="detail">
+                            <h5>ADS BANNER " FXP-INFO.COM "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+        
+
+                <li>
+                <a href="images/ads/g-27.jpg">
+                    <div class="inner">
+                    <img class="w-100" src="images/ads/g-27.jpg">
+                    <div class="detail">
+                        <h5>ADS BANNER " GENTLES TOTS "</h5>
+                    </div>
+                    </div>
+                </a>
+            </li>
+
+        
+                <li>
+                    <a href="images/ads/g-4.png">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-4.png">
+                        <div class="detail">
+                            <h5>ADS BANNER " LINE OA SERIVCE "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+                
 
                 <li>
                     <a href="images/ads/g-10.png">
@@ -201,6 +310,17 @@ class Adsbanner extends HTMLElement {
                         <img class="w-100" src="images/ads/ads-10.png">
                         <div class="detail">
                             <h5>ADS BANNER " WEBSITE PACKAGE "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="images/ads/g-8.png">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-8.png">
+                        <div class="detail">
+                            <h5>HAED BANNER BANNER " BLEMOTOR "</h5>
                         </div>
                         </div>
                     </a>
