@@ -288,4 +288,5 @@ img.img-resume {
         margin-bottom: 3rem;
         text-align: center;
     }
+    .port-list ul li a span i:after {display: none;}
 }
