@@ -280,4 +280,12 @@ img.img-resume {
     .copy-r p {text-align: center;}
     footer .contact {margin-bottom: 3rem;}
     footer .col-md-6.copy-r-right {display: block;}
+
+    .g-port-list ul li {width: 100%;}
+    .port-list ul li a {font-size: 1.5rem;}
+    .h5, h5 {font-size: 1rem;}
+    footer .contact {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
 }
