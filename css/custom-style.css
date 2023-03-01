@@ -259,6 +259,13 @@ button:focus {
 }
 /* Graphic page */
 
+/* UI Page*/
+.ui-list-item {margin-bottom: 3rem;}
+.inner-design-item {margin-bottom: 3rem;}
+
+/* UI Page*/
+
+
 
 /* Resume Page */
 img.img-resume {
