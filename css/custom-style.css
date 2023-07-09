@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, p, a {color: #ffffff;}
 .bg-black {background-color: #000;}
 .border-r-100 {border-radius: 100%;}
 
-section {padding: 80px 0px;}
+section {padding: 80px 0px 80px;}
 .text-center {text-align: center;}
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1300px;
@@ -71,7 +71,7 @@ p.s-detail {color: #fff;}
 /* About Me */
 section.about {
     padding: 12rem 0 50px;
-    background-color: #171718;
+    background-color: transparent;
 }
 span.b-head {font-size: 1.5rem;}
 .text-white p {color: #fff;}
@@ -84,7 +84,7 @@ section.about img {border: unset;}
 .img-cover img {width: 100%;}
 section.port .container.bg-black.border-r-50 {padding: 60px;}
 
-section.about:before, section.graphic-port:before {
+section.about:before, section.graphic-port:before, .front-port::before {
     content: "";
     position: absolute;
     width: 100%;
