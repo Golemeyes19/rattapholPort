@@ -250,8 +250,8 @@ p.name-img {
     padding: 10px;
     text-align: center;
     font-style: italic;
-    font-size: 0.9rem;
-    color: #7e7e7e;
+    font-size: 1REM;
+    color: #ffffff;
     font-weight: 200;
     margin: 0;
 }

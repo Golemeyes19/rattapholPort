@@ -294,7 +294,51 @@ class Adsbanner extends HTMLElement {
                         <div class="inner">
                         <img class="w-100" src="images/ads/g-8.png">
                         <div class="detail">
-                            <h5>HAED BANNER BANNER " BLEMOTOR "</h5>
+                            <h5>HAED BANNER " BLEMOTOR "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="images/ads/g-30.jpg">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-30.jpg">
+                        <div class="detail">
+                            <h5>HAED BANNER " consulatemongolia.com "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="images/ads/g-31.jpg">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-31.jpg">
+                        <div class="detail">
+                            <h5>ADS BANNER " PROMOTE SERVICES "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="images/ads/g-32.jpg">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-32.jpg">
+                        <div class="detail">
+                            <h5>ADS BANNER " PROMOTE SERVICES "</h5>
+                        </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="images/ads/g-33.jpg">
+                        <div class="inner">
+                        <img class="w-100" src="images/ads/g-33.jpg">
+                        <div class="detail">
+                            <h5>Ads BANNER " OZONE "</h5>
                         </div>
                         </div>
                     </a>
