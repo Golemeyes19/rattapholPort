@@ -105,32 +105,6 @@ class Adsbanner extends HTMLElement {
                 </li>
 
                 <li>
-                    <a href="images/ads/g-29.png">
-                        <div class="inner">
-                        <img class="w-100" src="images/ads/g-29.png">
-                        <div class="detail">
-                            <h5>LOGO " วัดบางแคน้อย "</h5>
-                        </div>
-                        </div>
-                    </a>
-                </li>
-
-               
-
-                <li>
-                    <a href="images/ads/g-23.png">
-                        <div class="inner">
-                        <img class="w-100" src="images/ads/g-23.png">
-                        <div class="detail">
-                            <h5>ADS BANNER " FXP-INFO.COM "</h5>
-                        </div>
-                        </div>
-                    </a>
-                </li>
-
-        
-
-                <li>
                 <a href="images/ads/g-27.jpg">
                     <div class="inner">
                     <img class="w-100" src="images/ads/g-27.jpg">
