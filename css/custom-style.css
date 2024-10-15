@@ -352,8 +352,8 @@ button:focus {
 /* Resume Page */
 img.img-resume {
     display: block;
-    margin-top: 80px !important;
-    margin-bottom: 80px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
     margin: auto;
     border: 1px solid #ccc;
 }
